@@ -1,3 +1,5 @@
+package practice_problem_01;
+
 import java.util.Scanner;
 import java.lang.Math;
 

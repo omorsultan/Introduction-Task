@@ -1,3 +1,5 @@
+package practice_problem_01;
+
 import java.util.Scanner;
 
 public class area_of_a_triangle_2 {
