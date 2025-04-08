@@ -17,6 +17,6 @@ public class average{
       numbers[i] = input.nextDouble();
       sum +=numbers[i];
     }
-    System.out.println("Average is " + sum / n + ".");
+    System.out.println("Average is " + sum / n +);
   }
 }
