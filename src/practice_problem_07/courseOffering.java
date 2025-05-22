@@ -1,7 +1,64 @@
-package practice_problem_06;
+package practice_problem_07;
 import java.util.Date;
 
-public class CourseOffering {
+ class Student {
+    private int id;
+    private String name;
+    private String program;
+
+    public Student(int id, String name, String program) {
+        this.id = id;
+        this.name = name;
+        this.program = program;
+    }
+
+    public int getId() { return id; }
+    public String getName() { return name; }
+    public String getProgram() { return program; }
+}
+
+class Instructor {
+    private int id;
+    private String name;
+    private String department;
+    private String title;
+
+    public Instructor(int id, String name, String department, String title) {
+        this.id = id;
+        this.name = name;
+        this.department = department;
+        this.title = title;
+    }
+
+    public int getId() { return id; }
+    public String getName() { return name; }
+    public String getDepartment() { return department; }
+    public String getTitle() { return title; }
+}
+
+class Course {
+    private int id;
+    private String syllabus;
+    private String title;
+    private String credits;
+    private String prerequisite;
+
+    public Course(int id, String syllabus, String title, String credits, String prerequisite) {
+        this.id = id;
+        this.syllabus = syllabus;
+        this.title = title;
+        this.credits = credits;
+        this.prerequisite = prerequisite;
+    }
+
+    public int getId() { return id; }
+    public String getSyllabus() { return syllabus; }
+    public String getTitle() { return title; }
+    public String getCredits() { return credits; }
+    public String getPrerequisite() { return prerequisite; }
+}
+
+ class CourseOffering {
     private Student student;
     private Instructor instructor;
     private Course course;
